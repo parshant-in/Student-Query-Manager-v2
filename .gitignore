@@ -1,0 +1,33 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Frontend dependencies and builds
+node_modules/
+dist/
+*.local
+
+# Database and backups
+*.dump
+*.sql
+*.db
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
+
+# Uploaded user documents and generated storage
+backend/storage/documents/*
+backend/storage/vector_store/
+# Uploaded user documents and generated storage
+backend/storage/documents/*
+backend/storage/vector_store/
